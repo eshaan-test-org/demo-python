@@ -95,7 +95,7 @@ def tar_something():
 
 
 def bad_isinstance(initial_condition, object, other_obj, foo, bar, baz):
-    pass
+    raise NotImplementedError()
 
 
 def check(x):
