@@ -5,6 +5,7 @@ class Orange:
     """Represents the fruit orange."""
 
     orange = "#FFA500"
+    x = "a"
 
     # Other class implementations
 
