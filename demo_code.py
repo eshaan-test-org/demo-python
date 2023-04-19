@@ -31,7 +31,8 @@ class RandomNumberGenerator:
     def limits(self):
         return self.limits
 
-    def get_number(self, min_max=None):
+    @staticmethod
+    def get_number(min_max=None):
         """Get a random number between min and max."""
         if min_max is None:
             min_max = [1, 10]
