@@ -19,7 +19,12 @@ class BaseNumberGenerator:
     @staticmethod
     def smethod():
         """static method-to-be"""
-
+    
+    @staticmethod
+    def smethod2():
+        """static method-to-be"""
+        pass
+        
     @classmethod
     def cmethod(cls, something):
         """class method-to-be"""
