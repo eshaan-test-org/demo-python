@@ -62,8 +62,7 @@ def main(options: dict = None) -> str:
 
     if type(value) != str:
         raise Exception()
-    else:
-        value = iter(value)
+    value = iter(value)
 
     sorted(value, key=len)
 
