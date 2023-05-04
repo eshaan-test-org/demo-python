@@ -5,7 +5,7 @@ class RealNumber:
         self.val = val
 
     def __add__(self, other):
-        raise NotImplementedError
+        return NotImplemented
 
 
 class ComplexNumber:
