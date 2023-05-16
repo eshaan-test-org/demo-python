@@ -12,6 +12,7 @@ class BaseNumberGenerator:
 
     def __init__(self):
         self.limits = (1, 10)
+        self.z = 1
 
     def get_number(self, min_max):
         raise NotImplementedError
