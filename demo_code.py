@@ -16,7 +16,10 @@ class BaseNumberGenerator:
 
     def get_number(self, min_max):
         raise NotImplementedError
-
+    
+    def get_num(self, min_max):
+        raise NotImplementedError    
+        
     @staticmethod
     def smethod():
         """static method-to-be"""
