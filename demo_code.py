@@ -24,7 +24,7 @@ class BaseNumberGenerator:
     @staticmethod
     def smethod2():
         """static method-to-be"""
-        return
+        raise NotImplementedError()
          
         
     @classmethod
